@@ -1,0 +1,66 @@
+
+header {
+    width: 100%;
+    padding: 0.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Fixando o header no top da página */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #B27DA4;
+}
+
+#navbar{
+    width: 100%;
+    margin-left: 2%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#hello_image{
+    width: 3vw;
+    height: auto;
+    margin-left: 1vw;
+}
+
+#girl_image{
+    width: 3vw;
+    height: auto;
+    margin-left: 1vw;
+}
+
+#nav_list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: auto;
+}
+
+#nav_list li {
+    margin: 0 1vw;
+}
+
+#nav_button{
+    display: flex;
+    border: none;
+    background-color: #B27DA4; 
+}
+
+#subjects {
+    font-size: 1.5vw;
+    text-decoration: none;
+    /*color: black;*/
+}
+
+#nav_I-am{
+    font-size: 1.5vw;
+    /*color: black;*/
+    margin-left: 1vw;
+}

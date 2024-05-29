@@ -1,0 +1,50 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: right;
+    justify-content: right;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 2vw;
+    padding: 20px;
+    /*color: black;*/
+    
+}
+
+#amandaImg {
+    /*width: 33vw;
+    height: 59vw;*/
+    width: 20%;
+    object-fit: cover;
+      
+}
+
+#main_left{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#title_main{
+    margin-left: 2%;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 2%;
+}
+
+#main_right{
+    margin-left: 20%;
+}

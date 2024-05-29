@@ -1,0 +1,67 @@
+/* ------------------- SKILLS ------------------- */
+
+#skills {
+    padding: 20px;
+    text-align: center;
+}
+
+#title_skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+#icon_skills {
+    width: 3vw;
+    height: auto;
+}
+
+#title_skills h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 0.5rem;
+}
+
+#skills h3 {
+    margin-bottom: 5px;
+}
+
+.skills_button {
+    background-color: #CFCECB;
+    color: #000000;
+    border: none;
+    padding: 0px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #CFCECB;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skills_button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px 0 #CFCECB;
+}
+
+.skills_button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 8px 16px 0 #CFCECB;
+}
+
+#skills_icon{
+    width: 3vw;
+    height: auto;
+}
